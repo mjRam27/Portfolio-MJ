@@ -1,0 +1,108 @@
+
+.portfolio {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #ffa500;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.hero-content p {
+  margin: 20px 0;
+}
+
+.hero-content .btn {
+  padding: 10px 20px;
+  border: none;
+  background: #ffa500;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.hero-content .btn-secondary {
+  background: #333;
+  color: white;
+}
+
+.hero-image img {
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.hero-card {
+    flex-direction: row;
+    margin-right: 80px;
+    align-items: flex-end;
+  background: #ffa500;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 12.5rem);
+}
+.about-section {
+  display: flex;
+  padding: 50px;
+}
+
+.about-image img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.about-text {
+  margin-left: 30px;
+}
+
+.about-text h2 {
+  color: #ffa500;
+}
+
+.services-section {
+  text-align: center;
+  padding: 50px;
+}
+
